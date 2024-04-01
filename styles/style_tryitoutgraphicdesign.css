@@ -1,0 +1,55 @@
+/* style_layout.css */
+
+/* Common Header */
+header {
+    background-image: url('path/to/header-background.jpg');
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Common Navigation List */
+nav ul {
+    border: 2px solid #333;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Assignments Page */
+body {
+    background: radial-gradient(circle, #72b6f5, #2989d8);
+    text-shadow: 1px 1px 2px #333;
+}
+
+/* Learning Activities Page */
+article h2 {
+    transform: rotate(3deg);
+    perspective: 1000px;
+}
+
+/* Try it Out Activities Page */
+article p {
+    filter: grayscale(50%);
+}
+
+section {
+    border: 25px solid #333;
+    border-image: url(../images/tb_border.png) 30 fill round;
+    transform: skew(10deg) rotate(5deg);
+}
+
+/* First Section */
+.section:nth-child(odd) {
+    filter: grayscale(50%);
+}
+
+/* Second Section */
+.section:nth-child(even) {
+    filter: sepia(80%);
+}
+
+/* Common Footer */
+footer {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    opacity: 0.9;
+}

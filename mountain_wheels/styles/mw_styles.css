@@ -1,0 +1,110 @@
+@charset "utf-8";
+
+/*
+   
+   Bike the Mountains Tour Style Sheet
+   Author: Yaseen Basravi
+   Date:   29 jan, 2024
+   
+   Filename: mw_styles.css
+
+*/
+
+
+/* Structural Styles */
+html{
+   background-color: rgb(155, 184, 236);
+}
+
+body{
+   background-color: rgb(230, 208, 180);
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Heading Styles */
+
+h1,h2{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-weight: lighter;
+}
+
+
+
+
+/* Navigation Styles */
+
+nav{
+   font-size: 0.8em;
+}
+
+nav > ul{
+   list-style-type: none;
+}
+
+nav>ul>li {
+   padding: 8px;
+}
+
+nav>ul>li>a:link,
+nav>ul>li>a:visited
+{
+   color: rgb(40, 55, 122);
+   text-decoration: none;
+}
+
+nav>ul>li>a:hover,
+nav>ul>li>a:active
+{
+   color: rgb(255,64,255);
+   text-decoration: underline;
+}
+
+
+
+/* Article Styles */
+article#tour_summary header h1 {
+   font-size: 2em;
+   letter-spacing: 0.2em;
+}
+
+
+
+
+/* Aside Styles */
+
+aside h1{
+   font-size: 1.2em;
+}
+
+aside h2{
+   font-size: 0.8em;
+}
+
+aside p{
+   font-weight: lighter;
+   font-size: 0.75em;
+}
+
+#tour_itinerary h2:nth-child(4) + p,
+#tour_itinerary h2:nth-child(8) + p,
+#tour_itinerary h2:nth-child(12) + p {
+  color: cornflowerblue;
+}
+/* Blockquote Styles */
+
+blockquote{
+   background-color: rgb(155, 184, 236);
+   color: white;
+   padding: 15px 8px;
+   font-weight: lighter;
+}
+
+/* Footer Styles */
+
+body > footer address {
+   background-color: rgb(228, 148, 44);
+   color: black;
+   font: normal small-caps lighter 0.8em/3em Quicksand,Verdana;
+   text-align: center;
+}
+
