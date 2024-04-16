@@ -1,0 +1,35 @@
+/* Style for the game container */
+#game {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Style for the cards */
+.card {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: #f0f0f0;
+    border: 2px solid #ccc;
+    font-size: 24px;
+    line-height: 100px;
+    cursor: pointer;
+}
+
+/* Style for flipped cards */
+.card.flipped {
+    background-color: #aaddff;
+}
+
+/* Style for the start form */
+#startForm {
+    margin-top: 20px;
+}
+
+/* Style for the start button */
+#startButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
